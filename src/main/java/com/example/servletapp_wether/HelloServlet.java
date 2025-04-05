@@ -35,7 +35,7 @@ public class HelloServlet extends HttpServlet {
         String cityName = request.getParameter("city");
         String encodedCityName = URLEncoder.encode(cityName, StandardCharsets.UTF_8);
 //        System.out.println(encodedCityName);
-        String apiKey = "9ea33fc4b42f6101f239144bbcf46636";
+        String apiKey = "......................add here own api key..........................";
         String apiURL = "https://api.openweathermap.org/data/2.5/weather?q=" + encodedCityName + "&appid=" + apiKey;
 
         // API Integration
